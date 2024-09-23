@@ -11,7 +11,7 @@
 })
 $('#password').keyup(function () {
     var tag = $(this);
-    if (tag.val() == '13871387') {
+    if (tag.val() == '12345678') {
         $('.page-one').fadeOut(1500)
     }
 })
