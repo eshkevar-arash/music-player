@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Distressed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"/>
+<title>UserCode | Js | 177</title>
+</head>
+<body >
+    <div class="page-one">
+        <div class="wrapper">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <form class="form">
+                <h2>login</h2>
+                <div class="row">
+                    <label for="password">password</label>
+                    <input type="password" id="password" placeholder="password">
+                    <i class="form-icon fas fa-eye"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bg-container">
+        <img src="" alt="" id="background">
+    </div>
+    <div class="player-container">
+        <!-- Song -->
+        <div class="img-container">
+            <img src="" alt="" id="cover" class="active">
+        </div>
+        <h2 id="title"></h2>
+        <h3 id="artist"></h3>
+        <audio src=""></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time"></span>
+                <span id="duration"></span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
+
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html> 
