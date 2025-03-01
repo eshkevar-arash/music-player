@@ -55,6 +55,14 @@ const songs = [
         cover:
             "images/Aref-Vakili-Saraye-To (1).jpg",
     },
+    {
+        path:
+            "media/Aref Vakili - Saraye To.mp3",
+        displayName: "Saraye to",
+        artist: "Aref Vakily",
+        cover:
+            "images/Aref-Vakili-Saraye-To (1).jpg",
+    },
 ];
 
 // Check if Playing
