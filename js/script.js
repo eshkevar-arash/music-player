@@ -53,7 +53,7 @@ const songs = [
         displayName: "Saraye to",
         artist: "Aref Vakily",
         cover:
-            "images/Aref-Vakili-Saraye-To (1).jpg",
+            "images/Aref Vakili - Be Raftan Ghasam (320).mp3",
     },
     {
         path:
