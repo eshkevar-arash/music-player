@@ -49,8 +49,8 @@ const background = document.getElementById("background");
 const songs = [
     {
         path:
-            "media/Aref Vakili - Saraye To.mp3",
-        displayName: "Saraye to",
+            "media/Aref Vakili - Be Raftan Ghasam (320).mp3",
+        displayName: "Be Raftan Ghasam",
         artist: "Aref Vakily",
         cover:
             "images/aref-vakili-be-raftan-ghasam_Musics.webp",
